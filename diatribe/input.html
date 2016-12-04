@@ -1,0 +1,945 @@
+<HTML>
+
+<HEAD>
+
+<TITLE>Input-Output Economics</TITLE>
+
+</HEAD>
+
+<body background="../CONFERENCES/backie.jpg">
+
+<CENTER><FONT  SIZE=+3 COLOR=#008000>Input-Output Economics</FONT></CENTER><BR>
+
+<CENTER><FONT  SIZE=4ß COLOR=#008000>A. S. FATEMI*</FONT></CENTER>
+
+<HR WIDTH=100% ALIGN=center SIZE=3>	
+
+<FONT  SIZE=+1 COLOR=#800000><CENTER> Table of Contents</CENTER></FONT>
+<FONT  SIZE=+1>
+<PRE>
+<B>I</B>	Aim of the study/paper                      
+<B>II</B>	Introduction	
+<B>III</B>	The Beginning of Input-Output Economics	
+<B>IV</B>	The Leontief Paradox	
+<B>V</B>	The Input-Output Model Today	
+<B>VI</B>	Calculation of the Input-Output Table Multipliers	
+<B>VII</B>	Computer Program for the Inverse of a Matrix	
+<B>VIII</B>	Regional Input-Output Analysis	
+<B>VIIII</B>	The Use of Input-Output Analysis with Regard to the Environment	
+<B>IX</B>	Conclusion	
+<B>X</B>	Bibliography	
+</PRE><P>
+
+<FONT  SIZE=+1 COLOR=#800000><CENTER>List of Illustrative Material</CENTER></FONT>
+<PRE>
+
+<B>I</B>	Input-Output Table for the US Economy in 1947	
+<B>II</B>	Table: Labour and Capital needed to reduce exports and increase i
+	mport substitutes by $1 million in the United States in 1947	
+<B>III</B>	Transaction Table	 
+<B>IV</B> 	Direct Requirements Table	
+<B>V</B>	Total Requirements Table	
+<B>VI</B>	Output, Income and Employment Measures from Input-Output Analysis, an example	
+<B>VII</B>	Example Questionnaire used in the Survey Approach to Input-Output Analysis	
+</PRE><P>
+
+<FONT  SIZE=+1 COLOR=#800000><CENTER>Abstract</CENTER></FONT><P>
+
+ The aim of this study, and thereby this paper, is to discover the field of input-output economics as an integral component of the wider trade theory.<P>
+
+We start therefore, with an introduction to the discipline, its history and its place today within the global economic context.<P>
+
+We move on to explain in detail the calculation of an input-output table as it is used for the total output calculations of a national as well as a regional economy. The concept of the multiplier will also be discussed here.<P>
+
+To conclude, we will present an example of the application of input- output economics to a specific, current issue namely, the environment.<P>
+<FONT  SIZE=+1 COLOR=#800000><CENTER> An Introduction</CENTER></FONT><P>
+
+The wider discipline of trade theory within which we find the field of input-output economics consists of four broader areas. Input-output economics, based on the Heckscher-Ohlin theory and defined by the findings of Wassily Leontief forms the biggest most well known part. However, there are other areas which deserve to be mentioned in order to round out the discussion. These other areas are the Ricardian model of comparative advantage, Posner's technological-gap theory and Vernon's product life-cycle theory.<P>
+
+
+The Ricardian model, which is the next most important model to that on which input-output economics is based, will be described in some depth for the sake of comparison and to give an alternative insight into the discipline of trade theory.<P>
+
+The Ricardian model then, suggests that labour costs will be the determinant of trade: the country with the lower labour cost in the production of a good will be the exporter of that commodity. This theory was tested in 1952 by MacDougall who used data on 25 products from 1937 to compare labour productivity and exports for the United States and Great Britain. In this way, MacDougall tested whether their relative exports to third countries were connected with their labour productivities. The results which MacDougall found were inconsistent with the simple Ricardian model. However, they are generally interpreted as supporting a more general "Ricardian" argument that differences in relative labour productivities are the determinant of comparative advantage. As long as these differences are due to technology, the model exists as an alternative to the model described previously.<P>
+
+	MacDougall found that wage rates in the manufacturing sector were roughly twice as high in the United States as in Britain. Therefore, the United States should be the dominant exporter in markets where her labour productivity was more than twice as high as in Britain. Britain, on the other hand, should be the dominant supplier in any line of production where her labour productivity was more than 50% of the American. Whenever labour productivity in US industry was twice that of its British counterpart, we should expect export shares of the two countries to be roughly equal in third markets.<P>
+
+In most cases, the ratio of US to British exports was higher whenever her ratio of labour productivity was higher. However the dividing line between British and US exporters in third markets was not where American productivity was twice as high as in Britain. In these markets, Britain still had a comparative advantage. The American markets needed a productivity advantage of roughly 2.4 to be even with the British in third markets. The basic explanation MacDougall suggested for this phenomenon was that imperial preferences and other tariff advantages that were enjoyed by countries which were close to her politically could be possible explanations for the advantage that Britain at the time enjoyed in her export markets. Other reasons put forward were that Britain had been the pioneering industrial nation and that her dominance in international finance and her commercial reputation still gave her certain advantages which were difficult to measure but which were still important.<SUP>1 </SUP><P>
+<FONT  SIZE=+1 COLOR=#800000><CENTER>The Beginning of Input-Output
+Economics</CENTER></FONT>
+ <P>
+
+	Although the French economist François Quesney had formulated a "tableau èconomique" in 1958 which depicted the workings of a farm and Leon Walras and other classical economists formulated general equilibrium models of the economy, none could employ their findings to the solution of problems. Therefore, the beginnings of the discipline of input-output economics are most often referred to as a 1951 paper written by Wassily Leontief. <P>
+
+In this paper, Leontief made a relatively simple point. The boom time after the second world war had brought with it an indigestible amount of facts. To this Leontief said "we have in economics today a high concentration of theory without fact on the one hand, and a mounting accumulation of fact without theory on the other"<SUP>2</SUP> . He went on to state that the collusion of the two was the most important task at hand for economists of the day. He made this collusion possible through the analytical method which he called interindustry or input-output analysis. <P>
+
+Leontief's findings were revolutionary in many ways, however most importantly because they cast doubt on the Heckscher-Ohlin theory. Under the Heckscher-Ohlin theory, "productive factors are assumed to move from areas of low remuneration to areas of high remuneration, lowering their supply in the first region and raising it in the latter. The workings of the market then raise the earnings of the migrating factor in the land of departure and lower it in the land of arrival, thus tending to equalize factor rewards the world over"<SUP>3</SUP> . The doubt which was cast over this theory became known as the Leontief Paradox. <P>
+<FONT  SIZE=+1 COLOR=#800000><CENTER>The Leontief Paradox</CENTER></FONT>  <P>
+
+Leontief argued that the Heckscher-Ohlin theory predicts that a country will tend to export those commodities which use its abundant factor of production intensively and import those which use its scarce factor intensively. However, when taking a representative basket of American exports, he discovered that they embodied more labour and less capital than a representative basket of American imports. <P>
+
+Leontief presented the first working model of input-output economics on the US economy in 1919. for this, he constructed a 46 x 46 sector table. Each sector having both a vertical and a horizontal column. In 1932 the third table for the US economy was constructed with the use of a computer. It comprised only 42 sectors but required 56 computer hours to do the necessary computations. <P>
+
+This 42 sector model is depicted on the following pages. This is a national model which today has 512 sectors. This type of national model is the most advanced form of the input-output model. Generally, however, the type of input-output approach which will be described further on in this writing is adapted to regions. These regional input-output tables describe how regional industries interact with each other and with the outside world, through imports and exports. <P>
+
+There was no doubt that the United States was the country most highly endowed with capital in 1947, so according to the Heckscher-Ohlin theory, it should have been exporting capital-intensive products and importing labour intensive goods. In constructing his table, Leontief was unable to obtain information on the factor intensity of the actual imports to the United States. <P>
+
+However, the Heckscher-Ohlin theory predicts that under free trade and with consequent factor-price equalization, the capital-labour ratio in US import competing goods should be the same as in its imports. Leontief was able to obtain information on the capital-labour ratio in US import-competing goods. He went on to estimate the consequences for the use of factors of production of the United States decreasing its exports and increasing its import substitutes by US$1 million. He took only two factors explicitly into account, capital and labour. When exports are decrease, both capital and labour are released. When production of import-competing goods is increased, both more labour and capital are needed. According to Leontief's hypothesis, we would expect relatively more capital to be released from the export industries and relatively more labour to be needed by the import-competing industries . <SUP>4</SUP><P>
+
+<FONT  SIZE=+1><CENTER>Capital and labour needed to reduce exports and
+increase import-substitutes by
+$1 million in the United States in 1947. <SUP>5</SUP></CENTER></FONT><P>
+<CENTER><TABLE BORDER CELLSPACING=2 CELLPADDING=1 WIDTH="100%">
+<TR>
+	<TD>
+	<TD>Exports
+	<TD>Import-substitutes
+<TR>
+	<TD>Capital ($,000 at 1947 prices)		
+	<TD>2,551
+	<TD>3,091
+<TR>
+	<TD>Labour (men years)		
+	<TD>182
+	<TD>170
+<TR>
+	<TD>Capital-Labour ratio		
+	<TD>13.99
+	<TD>18.18
+</TABLE></CENTER><P>
+
+	In 1947, the United States was exporting labour-intensive goods. Therefore, how can this paradox possibly be explained ? Several proposals have been put forward. The following is a summary of these proposals.<P>
+
+<B>1.</B> <U>Buchanan</U> argued that Leontief's capital coefficients were "investment requirement coefficients" which did not take into account the durability of capital.<P>
+
+<B>2.</B> <U>Loeb</U> argued that the differences in capital-intensity between the export sector and the import-competing sector were not statistically significant.<P>
+
+<B>3.</B> <U>Swerling</U> argued that 1947 was an atypical year.<P>
+
+<B>4.</B><U> Leamer</U> argued that the Leotief paradox is the consequence of an incorrect interpretation of the Heckscher-Ohlin theory when trade is not balanced. That is, when a capital rich country is experiencing unbalanced trade then we cannot conclude from the Heckscher-Ohlin model that its exports will be relatively capital-intensive. He demonstrated that when a country has a trade surplus (as was the case of the United States in 1947) the appropriate test is to compare the capital-labour ratio in either the country's net exports or its production with the capital-labour ratio in the country's consumption. Using these tests, there was no evidence of the Leontief paradox on US trade in 1947.
+<P>
+<B>5.</B>	Labour must be differentiated by level of skill. It was argued that American skill could not really be compared with labour in other countries, because the productivity of the American worker was substantially higher. Several tests were carried out to prove this, however, the paradox that the US was importing capital-intensive goods continued to prevail.<P>
+
+<B>6.</B> <U>Vanek</U> found that over the period 1870-1955, the United States became a net importer of goods that were intensive in natural resources (products of the extractive industries such as agriculture and mining). He also found that natural resources and capital were complementary inputs, and argued that the finding that the United States imported labour-intensive goods in fact reflected their imports of goods that were intensive in their use of natural resources. If natural resources were taken into account, a solution might be found. Subsequently, it has been proven that the Leotief paradox disappears when resource-based industries are excluded when the Heckscher-Ohlin theory is being tested.<P>
+
+<FONT  SIZE=+1 COLOR=#800000><CENTER>The input-output model today.</CENTER></FONT> 
+<P>
+Today, sound economic development decisions require information about the impacts of economic growth and/or decline and the relative benefits and costs of alternative development strategies. So, typical issues confronted by the economist using the input-output model would be: what will be the impact of a manufacturing plant closure or what resources does the community have to offer to potential industries seeking a plant location ? <SUP>6</SUP>
+<P>
+The fundamental underlying relationship of input-output analysis is that the amount of a product (good or service) produced by a given sector in the economy is determined by the amount of that product that is purchased by all the users of the product, has not changed since Leotief. However, today input-output analysis has become important to all the highly-industrialized countries in economic planning and decision making because of this flow of goods and services that it traces through and between different industries. Input-output tables are capable of simulating almost any conceivable economic impact.<P>
+
+Economists using input-output analysis today generally adopt an eclectic approach. They classify the goods in the tables into three classes which broadly match the three fields of trade theory outlined above.
+<P>
+<B>1. </B><B>Heckscher-Ohlin goods,</B> which have generally known and relatively stable technologies, with comparative advantage resting largely on factor endowments, and which are not tied down to the availability of specific factors. Textiles are often stated as typical Heckscher-Ohlin goods. Comparative advantage may shift around among countries in response to changes in factor prices and factor availabilities, so that the so-called ³foot-loose² industries would come in this group.
+<P>
+<B>2. </B><B>Technological goods</B> for which the production process is sophisticated and subject to frequent change, with the most recent technology probably specific to certain countries, and with proximity to large high- income markets an important factor. Computers and pharmaceutical products are examples of such goods. It is argued that the countries which have, and will keep, the comparative advantage in this group are the most developed nations.
+<P>
+<B>3.</B> <B>Ricardo goods,</B> where comparative advantage depends largely on production conditions. These usually include extraction industries (agriculture, mining as mentioned previously) and industries which carry out the processing of raw materials. Comparative advantage here may lie with the developing countries. <SUP>7</SUP>
+<P>
+The ensuing relationships of goods between industries reflect the state of technology of a particular region. Technology then is an essential feature of the input-output analysis. The investigation seeks to determine what can be produced, and quantity of each intermediate product which must be used up in the production process, given the quantities of available resources and the state of technology. <SUP>8</SUP> Growth in a particular industry may be induced by growth in others and input-output methods allow the effects of such interlinkages to be unraveled and the components of growth to be identified consistently. <SUP>9</SUP>
+<P>
+One of the interests in the field of input-output economics lies with the fact that it is very concrete in its use of empirical data and also very compact. <B>All changes in the endogenous sectors of an input-output table are results of changes in the exogenous sectors.</B>
+<P>
+In the static model, one deals solely with the production or "current account side" of an economy which provides a sound example of the compactness of the model. However, investment or capital account activities are not included. These are then generally included in final demand rather than in the part of the input-output matrix representing flows between individual industries. This then becomes a serious limitation of the static model because the changes in the structure of an industry's capital stock, and the changes in its pattern of capital equipment sourcing, are one of the most important manifestations of technological change and may have a direct impact on its output growth.
+<P>
+Economies are dynamic so it may be argued that dynamic input- output models should be used because after all, input-output tables give the stance at a particular point in time, which will be outdated extremely quickly. However, they are much less efficient and are generally passed over in favour of the static model.
+<P>
+Further in this discussion, we will outline the process of defining the matrices involved in an analysis of the static type. The types of matrices shown may then be used to attain goals such as increasing employment within a region, or to compare output figures of one economy to another.
+<P>
+<B>Input-output tables have three advantages</B> that make them particularly well suited to analysing structural change.<P>
+
+<B>1.</B>	<B>The data are usually comprehensive and consistent.</B> By their nature, input-output tables encompass all the formal market place activity that occurs in an economy, including the service sector which is frequently poorly represented. For some countries, over a hundred different data sources are used to ensure the completeness and internal consistency of the data, making it probably the single most comprehensive and complete source for economic data for most countries. Consequently, input-output tables frequently play a fundamental role in the construction of the national accounts. This role means that the data are thoroughly checked for their accuracy, and that the tables are intrinsically linked with many of the traditional indicators of economic performance such as production and GNP.
+<P>
+<B>2.</B>	<B>The nature of input-output analysis makes it possible to analyse the economy as an interconnected system of industries that directly and indirectly affect one another, tracing structural changes back through industrial interconnections.</B> This is especially important as production processes become increasingly complex, requiring the interaction of many different businesses at the various stages of a product's processing. Input-output techniques trace these linkages from the raw material stage to the sale of the product as a final, finished good. This allows the decomposition analysis to account for the fact that a decline in domestic demand for autos not only affects the auto industry, but also its suppliers like the steel industry and the steel suppliers like the coal industry and so on. In analysing an economy's reaction to changes in the economic environment, the ability to capture the indirect effects of a change is a unique strength of input-output analysis.
+<P>
+<B>3.</B>	<B>The design of input-output tables allows a decomposition of structural change which identifies the sources of change as well as the direction and magnitude of change.</B> Most importantly, an input- output based analysis of structural change allows the introduction of a variable which describes changes in producer's recipes - that is, the way in which industries are linked to one another, in input-output language, called the "technology" of the economy. It enables changes in output to be linked with underlying changes in factors such as exports, imports, domestic final demand as well as technology. This permits a consistent estimation of the relative importance of these factors in generating output and employment growth. In a general sense, the input-output technique allows insight into how macroeconomic phenomena such as shifts in trade or changes in domestic demand correspond to microeconomic changes as industries respond to changing economic conditions.<P>
+
+Although the field is widely practiced today, problems such as those Leontief encountered, still exist. <B>The limitations of the input-output approach,</B> according to the OECD document,<I> Structural Change and Industrial Performance</I> are:
+<P>
+<B>1.	The basic input-output analysis assumes constant returns to scale.</B> The input-output model assumes that the same relative mix of inputs will be used by an industry to create output regardless of quantity.
+<P>
+<B>2.	Each industry is assumed to produce only one type of product.</B> For example, the automobile industry produces only cars. The distribution and sale of this product is fixed.
+<P>
+<B>3.	Each product within the industry is assumed to be the same.</B> Also, there is no substitution between inputs. The output of each sector is produced with a unique set of inputs.
+<P>
+<B>4.	Technical coefficients are assumed to be fixed: that is, the amount of each input necessary to produce one unit of each output is constant.</B> The amount of input purchased by a sector is determined solely on the level of output. No consideration is made to price effects, changing technology or economies of scale.<P>
+
+<B>5.	It is assumed that there are no constraints on resources.</B> Supply is infinite and perfectly elastic.
+<P>
+<B>6.	It is assumed that all local resources are efficiently employed. </B>There is l no underemployment of resources.<P>
+
+.
+<B>7.	Timeliness of input-output data.</B> There is  a long time lag between the collection of data and the availability of the input-output tables. The sporadic nature of input-output tables means that continuous time series are impossible to construct without estimating input-output tables for the years between benchmarks. In effect, input-output tables provide a snapshot of the complete economy and all of its industrial interconnections at one time.<P>
+<FONT  SIZE=+1 COLOR=#800000><CENTER>Calculation of the input-output table</CENTER></FONT> <P>
+
+As will become clear, input-output analysis emphasizes general equilibrium phenomena. It seeks to take account of production plans and activities of many industries which constitute an economy. This interdependence arises out of the fact that each industry employs the outputs of other industries as its raw material. Its output, in turn, is used by other industries as a productive factor.<P>
+
+Each row of the input-output table shows, in detail, the receipts of an industry from other sectors of the economy (ref: Leontief's tables on p 7-8). This table is known as the transactions table. As we move across the table, we move from the sales to processing sectors and shipments to the final far right hand cell of final demand sectors such as consumers, investors, governments or foreign countries. It is assumed that this flow across the sectors is a fixed and constant proportion of the amount of the product being produced. Input-output tables used in practice are generally constructed in dollar terms. However, in theory they can be expressed in any physical unity. The first step of this calculation will allow the user to convert the dollar values into technical coefficients in order to come up with the total final output for each industry.<P>
+
+The following is a step-by-step analysis of the processes involved in the calculations of the input-output economist.<P>
+<FONT  SIZE=+1 COLOR=#800000><CENTER>Step One</CENTER></FONT>
+<P>
+
+Just as Leontief did for the first time in 1919, the first step in the input-output analysis process is to systematically define all the transactions of each industry in the economy. In order to do this, a transactions table is required. The transaction table which will form the basis of these calculations is shown below.<P>
+<TABLE BORDER CELLSPACING=2 CELLPADDING=1 WIDTH="100%">
+<TR>
+	<TD><CENTER>Purchasing Sector 	</CENTER>			
+	<TD><CENTER>Final Demand<SUP>10</SUP> </CENTER>
+</TABLE>
+ <TABLE BORDER CELLSPACING=2 CELLPADDING=1 WIDTH="100%">
+<TR>
+	<TD>From\ Into							
+	<TD>Agriculture
+	<TD>Manfct
+	<TD>Trade
+	<TD>Service
+	<TD>Househ
+	<TD>Other
+	<TD>Total Output
+<TR>
+	<TD>Agriculture						
+	<TD>202	
+	<TD>182
+	<TD>10
+	<TD>47
+	<TD>100
+	<TD>200
+	<TD>741
+<TR>
+	<TD>Manufacturing					
+	<TD>34
+	<TD>68	
+	<TD>2
+	<TD>26
+	<TD>39	
+	<TD>298
+	<TD>467
+<TR>
+	<TD>Trade						
+	<TD>47	
+	<TD>35
+	<TD>991
+	<TD>440
+	<TD>1200
+	<TD>66
+	<TD>2779
+<TR>
+	<TD>Service							
+	<TD>86
+	<TD>59
+	<TD>565
+	<TD>510
+	<TD>1500
+	<TD>313
+	<TD>3033
+<TR>
+	<TD>Households					
+	<TD>200
+	<TD>40	
+	<TD>205
+	<TD>1250
+	<TD>200
+	<TD>1494
+	<TD>3389
+<TR>
+	<TD>Imports						
+	<TD>172
+	<TD>83
+	<TD>1006	
+	<TD>760
+	<TD>350
+	<TD>1053
+	<TD>3424
+<TR>
+	<TD>Total					
+	<TD>741
+	<TD>467
+	<TD>2779
+	<TD>3033
+	<TD>3389	
+	<TD>3424	
+	<TD>
+</TABLE><P>
+
+Reading down, the entries typically show first the purchases from other sectors of goods and services required by an industry to carry on its activities. With some minor adjustments, the GNP from the product side can be compiled from these right hand final demand sectors.<SUP>11</SUP> <P>
+<FONT  SIZE=+1 COLOR=#800000><CENTER>Step Two</CENTER></FONT><P>
+
+	The direct requirements table follows from the transactions table. There is however, some confusion in the title of direct requirements because this table deals solely with local inputs, imported goods are not represented. Nonetheless, rather than showing actual dollar transactions, this table shows, for the sector named at the top, what fraction of total expenditures was made to purchase inputs (what was required) from the sector named at the left. The technical co-efficients are found by the simple formula:<P>
+
+<CENTER>aij = xij / xj</CENTER><P>
+
+where, the quantity of the output of sector i absorbed by sector j per unit of its total output j is described by the symbol aij and is called the input co-efficient of product of sector i into sector j.<SUP>12</SUP>  The technical coefficients allow us the determine how large the annual outputs of each sector must be in order to "satisfy not only given direct demand by the final users, the households, but also the intermediate demand depending in its turn on the total level of output in each of the two productive sectors.<P>
+
+Using the following direct requirements table, we can follow the steps and determine a technology matrix which will enable us to find out the final output required by each industry to meet both internal and final demands.
+<P>
+<FONT  SIZE=+1><CENTER>Purchasing Sectors<SUP>13</SUP> </CENTER></FONT>
+<TABLE BORDER CELLSPACING=2 CELLPADDING=1 WIDTH="100%">
+<TR>
+	<TD>From\Into					
+	<TD>Agriculture
+	<TD>Manufacturing
+	<TD>Trade
+	<TD>Service
+	<TD>Households
+<TR>
+	<TD>Agriculture					
+	<TD>0.27
+	<TD>0.39
+	<TD>0
+	<TD>0.02
+	<TD>0.03
+<TR>
+	<TD>Manufacturing					
+	<TD>0.05
+	<TD>0.15
+	<TD>0
+	<TD>0.01
+	<TD>0.01
+<TR>
+	<TD>Trade					
+	<TD>0.06
+	<TD>0.07
+	<TD>0.36
+	<TD>0.15
+	<TD>0.35
+<TR>
+	<TD>Service					
+	<TD>0.12
+	<TD>0.13
+	<TD>0.2
+	<TD>0.17
+	<TD>0.44
+<TR>
+	<TD>Households				
+	<TD>0.27	
+	<TD>0.08
+	<TD>0.07
+	<TD>0.41
+	<TD>0.07
+<TR>	
+	<TD>Imports					
+	<TD>0.23
+	<TD>0.18
+	<TD>0.36
+	<TD>0.24
+	<TD>0.1
+<TR>	
+	<TD>Total	
+	<TD>1
+	<TD>1
+	<TD>1
+	<TD>1
+	<TD>1
+</TABLE><P>
+This direct requirements table or technology matrix is the heart of input-output analysis. The aim of this table is to establish the equilibrium conditions under which industries in an economy have just enough output to satisfy each other's demands in addition to final outside demands. Given the internal demands for each industry's output, we must determine the output levels for the various industries that will meet a given final level of demand as well as the internal demand.<P>
+<FONT  SIZE=+1 COLOR=#800000><CENTER>Step Three</CENTER></FONT><P>
+
+To develop equations for the model. These linear equations represent the interdependence among the sectors of the given economy. They express the balances between the total input and the aggregate output of each industry and service produced and used over the given time period:<P>
+
+x1 = Total output from the agriculture sector<BR>
+x2 = Total output from the manufacturing sector<BR>
+x3 =  Total output from the trade sector <BR>
+x4 = Total output from the services sector<P>
+
+From the table, the internal demands become:<P>
+
+0.27x1 + 0.39x2 + 0.00x3 + 0.02x4 = Internal demand for agriculture <BR>
+0.05x1 + 0.15x2 + 0.00x3 + 0.01x4 = Internal demand for manufacturing <BR>
+0.06x1 + 0.07x2 + 0.36x3 + 0.15x4 = Internal demand for trade <BR>
+0.12x1 + 0.13x2 + 0.20x3 + 0.17x4 = Internal demand for services<P>
+
+Combining the internal demand with the final demand produces the following system of equations:<P>
+<TABLE BORDER CELLSPACING=2 CELLPADDING=1  WIDTH="100%">
+<TR>
+	<TD>Total Output
+	<TD>Internal Demand
+	<TD>Final Demand
+<TR>
+	<TD>x1 =		
+	<TD>0.27x1 + 0.39x2 + 0.00x3 + 0.02x4 +
+	<TD>d1
+<TR>
+	<TD>x2 =		
+	<TD>0.05x1 + 0.15x2 + 0.00x3 + 0.01x4 +
+	<TD>d2
+<TR>
+	<TD>x3 =		
+	<TD>0.06x1 + 0.07x2 + 0.36x3 + 0.15x4 +
+	<TD>d3
+<TR>
+	<TD>x4 =		
+	<TD>0.12x1 + 0.13x2 + 0.20x3 + 0.17x4 +
+	<TD>d4
+</TABLE><P>
+
+Generally, the values of final demand are considered to be exogenous variables, while the values of total output are considered to be endogenous variables. A point to keep in mind is that as Wassily Leotief has said in his 1985 paper on input-output analysis, in actual fact, the quantities of goods and services absorbed by households can be considered to be dependent on the total level of employment offered by the other sectors of the economy. This would mean that households would become endogenous variables of the model. For our purposes however, households will remain exogenous.<P>
+<FONT  SIZE=+1 COLOR=#800000><CENTER>Step Four</CENTER></FONT>
+<P>
+
+From the equations, we can develop a matrix for the sectors of the economy:<P>
+<PRE>
+x1 		0.27 0.39 0.00 0.02		x1		d1
+x2	=	0.05 0.15 0.00 0.01	    .	x2	+	d2
+x3		0.06 0.07 0.36 0.15		x3		d3
+x4		0.12 0.13 0.20 0.17		x4		d4
+</PRE><P>
+where
+<P><PRE>
+	d1			x1
+D =	d2		X =	x2
+	d3			x3
+	d4			x4
+</PRE><P>
+<PRE>
+		A      M     T      S			C1   C2   C3   C4
+	A	0.27  0.39  0.00  0.02		C1	a11  a12  a13  a14
+M =	M	0.05  0.15  0.00  0.01	OR	C2	a21  a22  a23  a24
+	T	0.06  0.07  0.36  0.15		C3	a31  a32  a33  a34
+	S	0.12  0.13  0.20  0.17		C4	a41  a42  a43  a44
+</PRE><P>
+We can read this matrix in the following manner:<P>
+<PRE>
+	A		M		T		S
+A	Input from	Input from	Input from	Input from
+	A to produce	A to produce	A to produce	A to produce
+	$1 of A$	1 of M$		1 of T	$	1 of S
+		
+M	Input from	Input from	Input from	Input from
+	M to produce	M to produce	M to produce	M to produce
+	$1 of A		$1 of M		$1 of T		$1 of S
+
+T	Input from	Input from 	Input from	Input from
+	T to produce	T to produce	T to produce	T to produce
+	$1 of A		$1 of M		$1 of T		$1 of S
+
+S	Input from	Input from	Input from	Input from
+	S to produce	S to produce	S to produce	S to produce
+	$1 of A		$1 of M		$1 of T		$1 of S
+</PRE><P>
+<FONT  SIZE=+1 COLOR=#800000><CENTER>Step Five</CENTER></FONT>
+<P>
+
+Logically, the final table in the necessary series is the total requirements table which can be derived from the above matrix. This not only measures the direct effects, but also the indirect effects of any changes taking place in the industries covered in the tables. The final input-output equation becomes:<P>
+<FONT  SIZE=+1><CENTER>Purchasing Sectors <SUP>14</SUP></CENTER></FONT>
+<TABLE BORDER CELLSPACING=2 CELLPADDING=1 WIDTH="100%">
+<TR>
+	<TD>From\Into				
+	<TD>Agriculture
+	<TD>Manufacturing
+	<TD>Trade
+	<TD>Service
+<TR>
+	<TD>Agriculture				
+	<TD>1.49
+	<TD>0.72
+	<TD>0.05
+	<TD>0.12
+<TR>
+	<TD>Manufacturing			
+	<TD>0.11	
+	<TD>1.24
+	<TD>0.02
+	<TD>0.04
+<TR>
+	<TD>Trade				
+	<TD>0.87
+	<TD>0.85
+	<TD>2.03
+	<TD>1.03
+<TR>
+	<TD>Service			
+	<TD> 0.93
+	<TD>0.92
+	<TD>0.77
+	<TD>2.01
+<TR>
+	<TD>Total			
+	<TD>4.76
+	<TD>4.88	
+	<TD>3.37
+	<TD>4.21
+</TABLE><P>
+<PRE>
+			Total		Internal	Final
+			Output		Demand		Demand
+			X		MX+		D
+</PRE>
+<P>
+
+	However, we must arrange this equation in order to solve for X, since our concern is the amount of final output required from each sector. Therefore:<P>
+<PRE>
+
+D	=	X       -     MX			1  0  0  0
+D	=	IX      -     MX	where	I  =	0  1  0  0
+D	=	X(I     -     M)			0  0  1  0
+							0  0  0  1
+</PRE><P>
+
+and finally:<P>
+
+
+<CENTER>X   =   (I    -    M)<SUP>-1</SUP>D</CENTER><P>
+
+
+This is assuming that I - M has an inverse (in economics the inverse matrix is usually called the matrix multiplier). The computer program given after the table can be used to find the inverse of the matrix. This result is then multiplied by the demand function in order to determine the required total output.<P>
+
+This matrix equation and its solution are the same for a two-industry economy, a three-industry economy, a four-industry economy, or an economy with n industries, since the steps we take to get from the equation to the solution hold for arbitrary matrices as long as they are dimensionally correct and (I - M)-1 exists. To prove that the inverse does exist, we can multiply the original matrix by the new matrix. If the result is correct, we should end up again with the identity matrix. <SUP>15</SUP><P>
+ <FONT  SIZE=+1 COLOR=#800000><CENTER>Multipliers</CENTER></FONT><P>
+
+
+Associated with the total requirements table defined earlier is the concept of the multiplier. The each cell in the "total" row of the total requirements table gives the analyst a multiple by each dollar of increased final demand will impact the overall output of the regional economy. It measures how much total production of goods and services is required throughout the regional economy for every one dollar of additional final demand for the goods produced by the industry named at the top of the column. Multipliers may be either type I or type II. The type I output multiplier is used for an open model analysis. It is used when the change in final demand is known and the total (direct and indirect) change in regionwide production (output) is desired. Then, the type II output multiplier is used for a closed model analysis. It is used when the change in final demand is known and the total (direct, indirect and induced) change in regionwide production (output) is desired.<P>
+
+Importantly, multipliers may be used to estimate employment effects. These multipliers are constructed in order to show the implication of an initial change that will result in the multiplied number of jobs if the ratio of total employees to production in each sector is the same for additional production as in the ratio for that sector in three original model, and if the unemployed people in the region have the skills required on the new jobs.<SUP>16</SUP>  The matrix associated with this gives the technical co-efficients of physical labour input requirements to each sector. This is accomplished by determining the ratio of employees in a sector to the total output of the sector. The results will give a table of employment effects. The employment multipliers are also of two types. Type I is used when the change in the number of employees who will be employed or laid off is known and the total (direct and indirect) change in regionwide employment is desired. The type II multiplier is used when the change in the number of employees who will be employed or laid off is known and the (direct, indirect and induced) change in the regionwide employment is desired. Total employment effects in an open or closed analysis are used when the change in final demand is known and total change in the regionwide employment is desired.
+<P>
+Multipliers may also be used to generate information about the total income effects within a regional economy. Income multipliers can be estimated by calculating the ratio of total income effect coefficient to the direct income effect. The total income effects multiplier is used when a change in final demand is known and the total income is desired. Type I and type II multipliers can be created used the direct physical input coefficient and the total employment effect coefficients. The type I multiplier is used for an open model when the initial change in sector income is known and the total change in regionwide income (that is, all sectors combined) is known. The type II multiplier is used for a closed model when the initial change in sector income is known and the total change in regionwide income (all sectors combined) is desired. 
+<P>
+It must be realised that the type I multiplier understates the overall effects by ignoring wage-earner's increased spending while the type II multipliers overstate the impacts. Because of these discrepancies, the type I and type II output multipliers are often used together to give a range of impact.
+<P>
+The following checklist should be consulted with regard to use of the multiplier:
+<P>
+<B>1. Which multiplier is appropriate ?</B> The appropriate multiplier to use depends both on the information desired and the information that can be provided. A summary of these measures is given overleaf .<SUP>17</SUP>  
+<P>
+<B>2. What do employment multipliers imply ?</B> Employment multipliers mean that the initial change will result in the multiplied number of jobs if the ratio of total employees to production in each sector is the same for additional production as in the ratio for that sector in the original model, and if the unemployed people in the region have the skills required on the new jobs.
+<P>
+<B>3. Are big multipliers better ?</B> If size of a sector's multiplier is being used to evaluate targets for growth, the planner should be introduced to some measure of the feasibility of certain growth patters such as elasticities. A sector with the largest multiplier in the state may be so small that it takes an unrealistic rate of growth to generate the same region-wide growth of income as a very large sector with a very small multiplier.<P>
+
+ Output and Income Measures from Input-Output Analysis, Region X<P>
+
+
+<PRE>  Sector	  Output	 Total	  	   Income	       	  Income	
+  Name		Multiplier  Income Effects	   Effects		Multipliers	</PRE>
+<TABLE BORDER CELLSPACING=2 CELLPADDING=1 WIDTH="100%">
+<TR>
+	<TD>
+	<TD>Type I<SUP>1</SUP>						
+	<TD>Type II<SUP>2</SUP>
+	<TD>Open<SUP>3</SUP>
+	<TD>Closed<SUP>4</SUP>	
+	<TD>Direct<SUP>5</SUP>	
+	<TD>Indirect<SUP>6</SUP>
+	<TD>Induced<SUP>7</SUP>
+	<TD>Type I<SUP>8</SUP>
+	<TD>Type II<SUP>9</SUP>
+<TR>
+	<TD>Agriculture									
+	<TD>1.99
+	<TD>4.76
+	<TD>0.52
+	<TD>0.92
+	<TD>0.27
+	<TD>0.25
+	<TD>0.40
+	<TD>1.92
+	<TD>3.41
+<TR>
+	<TD>Manufctrng									
+	<TD>2.51
+	<TD>4.88
+	<TD>0.44
+	<TD>0.78
+	<TD>0.08
+	<TD>0.36
+	<TD>0.34
+	<TD>5.50
+	<TD>9.75
+<TR>
+	<TD>Trade									
+	<TD>2.08
+	<TD>3.37
+	<TD>0.28
+	<TD>0.51
+	<TD>0.07
+	<TD>0.21
+	<TD>0.23
+	<TD>4.00
+	<TD>7.29
+<TR>
+	<TD>Service									
+
+	<TD>1.65
+	<TD>4.21
+	<TD>0.56
+	<TD>1.00
+	<TD>0.41
+	<TD>0.15
+	<TD>0.44
+	<TD>1.36
+	<TD>2.44
+</TABLE><P>
+	
+<SUP>1</SUP>Total row from open model (Table 3).<BR>
+
+<SUP>2</SUP>Total row from closed model (Table 4).<BR>
+<SUP>3</SUP>Total (direct and indirect) income effects per $1 of final demand. TO CALCULATE: Multiply each element of the sector's total requirements column (Table 3) by the direct income effect (column 5) and sum.<BR>
+<SUP>4</SUP>Total (direct, indirect and induced) income effects per $1 of final demand. TO CALCULATE: Multiply each element of the sector s total requirements column (Table 4) by the direct income effect (column 5) and sum.<BR>
+<SUP>5</SUP>Household row of the direct requirements table (Table 2).<BR>
+<SUP>6</SUP>Total income effects from open model (column 3) minus the direct effect (column 5).<BR>
+<SUP>7</SUP>Total Income effects from the closed model (column 4) minus total income effects from the open model (column 3).<BR>
+<SUP>8</SUP>Total (direct and indirect) income effects per S I change in initial income. TO CALCULATE: Divide the total income effect from in open model (column 3) by the direct income effect (column 5).<BR>
+<SUP>9</SUP>Total (direct, indirect and induced) income effects per $l change in initial income. TO CALCULATE: Divide the total income effect from a closed model (column 4) by the direct income effect (column 5).<P>
+
+
+Employment Measures from Input-Output Analysis, Region X <P>
+<TABLE BORDER CELLSPACING=0 CELLPADDING=0 border=0>
+<TR>
+<TD>Sector Name
+	<TD>Sector Emloyment<SUP>10</SUP> 
+	<TD> Total Employment Effects
+	<TD>Employment  Effects
+	<TD>Employment Multipliers
+</TABLE>
+		    
+		 
+				   
+<TABLE BORDER CELLSPACING=2 CELLPADDING=1 WIDTH="100%">
+<TR>
+	<TD>
+	<TD>
+	<TD>open<SUP>11</SUP>
+	<TD>closed<SUP>12</SUP>
+	<TD>direct<SUP>13</SUP>
+	<TD>indirect<SUP>14</SUP>
+	<TD>induced<SUP>15</SUP>
+	<TD>type I<SUP>16</SUP>
+	<TD>typeII<SUP>17</SUP>
+<TR>
+	<TD>Agriculture								
+	<TD>221
+	<TD>63
+	<TD>123
+	<TD>30
+	<TD>33
+	<TD>60
+	<TD>2.09
+	<TD>4.10
+<TR>
+	<TD>Manufacturing								
+	<TD>100
+	<TD>69
+	<TD>122
+	<TD>21
+	<TD>49
+	<TD>53
+	<TD>3.31
+	<TD>5.81
+<TR>
+	<TD>Trade								
+	<TD>1000
+	<TD>76
+	<TD>110
+	<TD>36
+	<TD>40
+	<TD>34
+	<TD>2.11
+	<TD>3.06
+<TR>
+	<TD>Service							
+	<TD>1200
+	<TD>64	
+	<TD>130
+	<TD>40
+	<TD>24
+	<TD>66
+	<TD>1.61
+	<TD>3.25
+</TABLE><P>
+
+<SUP>10</SUP> Assumed employment for Region X; employment data would be provided by the analyst.<BR>
+
+<SUP>11</SUP> Total (direct and indirect) employment effects per S100,000 of final demand. TO CALCULATE: Multiply each element of the sector¹s total requirements column (Table 4) by the direct employment effect (column 13) and then sum.<BR>
+<SUP>12</SUP> Total (direct, indirect and induced) employment effects per S100,000 of final demand. TO CALCULATE: Multiply each of the sector's total requirements (column 2) by the direct employment effect (column 13) and then sum.<BR>
+<SUP>13 </SUP>Total sector employment (column 10) divided by sector output in S100,000 (Table 1).<BR>
+<SUP>14 </SUP>Total employment effects from open model (column 11) minus the direct employment effects (column 13).<BR>
+<SUP>15 </SUP>Total employment effect from closed model (column 12) minus the total employment effect of the open model (column 11).<BR>
+<SUP>16</SUP> Total (direct and indirect) employment effects per change in initial employment. TO CALCULATE: Divide the total employment effect from the open model (column 11) by the direct employment effect (column 13).<BR>
+<SUP>17</SUP> The total (direct, indirect and induced) employment effects per change in initial employment. TO CALCULATE: Divide the total employment effect from a closed model (column 12) by the direct employment effect (column 13).<P>
+<FONT  SIZE=+1 COLOR=#800000><CENTER>  Computer Program for the inverse of a matrix</CENTER></FONT>
+<P>
+
+
+100 CLS :PRINT "Please enter the size of your matrix": INPUT N<BR>
+110 PRINT "****Please enter your values****"<BR>
+120 DIM A(N,N)<BR>
+130 FOR X=1 TO N: FOR Y=1 TO N<BR>
+140 INPUT A(X,Y)<BR>
+150 NEXT:NEXT<BR>
+160 CLS<BR>
+170 FOR X=1 TO N: PRINT: FOR Y=1 TO N<BR>
+180 PRINT A(X,Y)<BR>
+190 NEXT:NEXT<BR>
+200 DIM Z(N),C(N),B(N),X(N,N)<BR>
+210 FOR J=1 TO N<BR>
+220 Z(J)=J<BR>
+230 NEXT J<BR>
+240 FOR I=1 TO N<BR>
+250	K=1<BR>
+260	Y=A(I,I)<BR>
+270	L=I-1<BR>
+280	P=P+1<BR>
+290	FOR J=P TO N<BR>
+300	W=A(I,J)<BR>
+310	IF ABS(W)>ABS(Y) THEN<BR>
+320	K=J<BR>
+330	Y=W<BR>
+340	END IF<BR>
+350	NEXT J<BR>
+360	FOR J=1 TO N<BR>
+370	C(J)=A(J,K)<BR>
+380	A (J,K) =A(J,I)<BR>
+390	A(J,I)=-C(J)/Y<BR>
+400	A(I,J)=A(I,J)/Y<BR>
+410	B(J)=A(I,J)<BR>
+420	NEXT J<BR>
+430	A(I,I)=1/Y<BR>
+440	I=Z(I)<BR>
+450	Z(I)=Z(K)<BR>
+460	Z(K)=J<BR>
+470	FOR K=1 TO L<BR>
+480	P=P+1<BR>
+490	IF P>N GOTO 550<BR>
+500	FOR J=1 TO L<BR>
+510	P=P+1<BR>
+520	IF P>N GOTO 550<BR>
+530	A(K,J)=A(K,J)-B(J)*C(K)<BR>
+540		NEXT J<BR>
+550		REM<BR>
+560	NEXT K<BR>
+570 NEXT I<BR>
+580 L=0<BR>
+590 L=L+1<BR>
+600 K=Z(L)<BR>
+610 IF L<=N THEN<BR>
+620	FOR J=L TO 1,000,000<BR>
+630		IF K=J THEN GOTO 700<BR>
+640		FOR I=1 TO N<BR>
+650			W=A(J,I)<BR>
+660			A(J,I)=A(K,I)<BR>
+670			A(K,I)=W<BR>
+680		NEXT I<BR>
+690		GOTO 580<BR>
+700	NEXT J<BR>
+710 CLS<BR>
+720 FOR J=1 TO N:PRINT: FOR I=1 TO N<BR>
+730 PRINT "The inverse of the matrix is: ", A(I,J)<BR>
+740 NEXT:NEXT<P>
+<FONT  SIZE=+1 COLOR=#800000><CENTER>  Regional Input-Output Analysis</CENTER></FONT><P>
+
+
+
+	Regional input-output analysis is virtually the same as national input-output analysis except that the comparison is made between regions. It provides information on individual industrial sector size, behavious and interaction with the rest of the economy. It shows the relative importance of sectors in terms of their sales, wages, and employment. It also provides a way to predict how the economy will respond to exogenous changes or changes that are planned. Therefore, it is useful in prescriptive exercises where various actions are being considered and the relative merits are to be determined based on alternative outcomes.<P>
+
+	Since the major problem in all types of input-output analysis is data collection, regional input-output models are classified according to the method used to obtain the information. The three methods are:<P>
+
+<B>1. Survey:</B> survey based models obtain most of the data for the transactions table through mailed questionnaires or personal interviews of regional business firms. If done well, survey-based models have the potential to be much more accurate than other approaches. However, relatively few survey bases studies exist.<P>
+
+<B>2. Non-survey:</B> non-survey models employ almost no primary data and usually obtain regional data by adjusting the national input-output table. These types of models are much less costly. Generally, three procedures are used to calculate these models. The locations quotients procedure computes a quantity sj that is designated as the production of xj assuming that the regional economy has the same industry mix as the national economy. The supply-demand pool approach is based on satisfying local requirements and final demand from regional sources first. The regional purchase coefficients is<P>
+defined by the formula: 
+<BLOCKQUOTE>RPCiR = (XiR- EiR)<BR>
+
+(XiR - EiR + MiR)</BLOCKQUOTE><P>
+
+where:	<BLOCKQUOTE>XiR = is the total regional output of industry i<BR>
+
+EiR = the gross amount of the output of industry i that is exported<BR>
+
+MiR = the gross amount of industry i that is imported from the region
+</BLOCKQUOTE><P>
+Given the variations in these three basic methods of data reduction it is not surprising that there is strong disagreement about the use of non-survey techniques among analysts. These methods will more that likely be refined and used as an alternative to the survey approach outlined above.<P>
+
+<B>3. Hybrid:</B> hybrid models usually rely on surveys to obtain the largest regional input-output coefficients and secondary data for the rest of the table. This is the most widely used method today.<P>
+
+A copy of the questionnaire used in an input-output analysis of the Kansas economy in 1985 follows. <P>
+<B><CENTER>Interindustry Impact Project
+Sector Listings<SUP>18</SUP></CENTER></B>
+<PRE><B>FARMING</B>	
+1. Corn				37. Other Fabricated Metal Products
+2. Sorghum			38. Farm Machinery
+3. Wheat			39. Construction Machinery
+4. Other Grains			40. Food Products Machinery
+5. Soybeans			41. Electrical Machinery
+6. Hay				42. Other Machinery
+7. Dairy Products		43. Motor Vehicles
+8. Poultry and Poultry Products	44. Aerospace
+9. Cattle			45. Trailer Coaches
+10. Hogs			46. Other Transportation Equipment
+11. Other Agricultural Products	47. Other Manufacturing
+12. Agricultural Services	<B>TRANSPORTATION</B>
+<B>MINING</B>				48. Railroad Transportation
+13. Crude Oil and Natural Gas	49. Motor Freight
+14. Oil and Gas Field Services	50. Other Transportation
+15. Nonmetallic Mining		<B>UTILITIES</B>
+16. Other Mining		51. Communications
+<B>CONSTRUCTION</B>			52. Electric Gas and Sanitary Services
+17. Maintenance and Repair	<B>WHOLESALE</B>
+18. Building Construction	53. Groceries
+19. Heavy Construction		54. Farm Products
+20. Special Trade Construction	55. Machinery and Equipment
+<B>MANUFACTURING</B>			56. Other Wholesale Trade
+21. Meat Products		<B>RETAIL</B>
+22. Dairy Products		57. Farm Equipment Dealers
+23. Grain Mill Products		58. Gasoline Service Stations
+24. Other Food and Kindred Products	59. Eating and Drinking
+25. Apparel			60. Other Retail Trade
+26. Paper end Allied Products	<B>F.l.R.E</B>
+27. Printing and Publishing	61. Banking
+28. Industrial Chemicals	62. Other Finance
+29. Agricultural Chemicals	63. Insurance & Real Estate
+30. Other Chemicals		<B>SERVICES</B>
+31. Petroleum and Coal Products	64. Lodging Services
+32. Rubber and Plastics		65. Personal Services
+33. Cement and Concrete		66. Business Services
+34. Other Stone and Clay	67. Medical and Health Services
+35. Primary Metals		68. Other Services
+36. Fabricated Metals		69. Education
+</PRE><P>
+<FONT  SIZE=+1 COLOR=#800000><CENTER>  The use of Input-Output Analysis 
+with regard to the Environment.</CENTER></FONT><P>
+
+
+
+	In 1970, Wassily Leontief presented a paper at the International Symposium on Environmental Disruption in the Modern World in Tokyo. This paper was entitled Environmental repercussions and the economic structure: An input-output approach. The following is a combination of excerpts [including some summarizing] from this paper.<SUP>19</SUP> <P>
+
+	"Pollution is a by-product of regular economic activities. In each of its many forms it is related in a measurable way to some particular consumption of production process. The quantity of carbon monoxide released in the air, for example, bears a definite relationship to the amount of fuel burned by various types of automotive engines; the discharge of polluted water into streams and lakes is linked directly to the level of output of the steel, the paper, the textile, and all the other water using industries, and its amount depends, in each instance, on the technological characteristics of the particular industry.<P>
+
+	Input-output analysis describes and explains the level of output of each sector of a given national economy in terms of its relationships to the corresponding levels of activities in all the other sectors. In its more complicated multiregional and dynamic versions, the input-output approach permits us to explain the spatial distribution of output and consumption of various goods and services and of their growth or decline - as the case may be over time.<P>
+
+	Frequently unnoticed and too often disregarded, undesirable byproducts (as well as certain valuable but unpaid for natural inputs) are linked directly to the network of physical relationships that govern the day-to-day operations of our economic system..."<P>
+
+	In this paper, Leontief went on the calculate the technical coefficients and the final table in the same way as is presented above. However, to the system of equations, he added a third which used X to represent the unknown total quantity of the external output (ie pollution). His system of equations for a two sector economy then became:<P>
+
+<BLOCKQUOTE>0.75X1 - 0.40X2 = Y1<BR>
+
+-0.14 X1 + 0 88 X2  = Y2<BR>
+
+0.50X1 + 0.20 X2 = 0
+</BLOCKQUOTE><P>
+	In the last equation the first term describes the [estimated] amount of pollution produced by agriculture as depending on that sector's total output, X1, while the second represents, in the same way, [an estimate of] the pollution originating in manufacture as a function of X2. The equation as a whole simply states that X3, the total amount of that particular type of pollution generated by the economic system as a whole, equals the sum total of the amounts produced by all its separate sectors.
+<P>
+	Given the final demands Y1 and Y2 for agricultural and manufacturing products, this set of three equations can be solved not only for their total outputs X1 and X2 but also for the unknown total output X3 of the undesirable pollutant.<P>
+
+	The coefficients of the left-hand side of augmented input-output system for the matrix,<P>
+
+<PRE>		 0.75		-0.40		 0
+		-0.14		 0.88		 0
+		 0.50		 0.20		-1</PRE>
+
+
+	A general solution of the system of equations including the pollution equation would be similar in its form to the general solution of equations not including the pollution equation but it would consist of three rather than two equations and the inverse of the original structural matrix would have three rows and columns.<P>
+
+	Instead of inverting the enlarged structural matrix, one can obtain the same result in two steps. First use the inverse of the original smaller matrix to derive from the two-equation system, the outputs of agricultural and manufactured goods required to satisfy any given combination of final demands Y1 and Y2. Second, determine the corresponding "output" of pollutants, X3, by entering the values of X1 and X2 thus obtained in the pollution equation.<P>
+
+	Let Y1 = 55 and Y2 = 30; these are the levels of the final demand for agricultural and manufactured products as in the input-output table shown below.<P>
+
+<TABLE BORDER CELLSPACING=2 CELLPADDING=1>
+<TR>
+	<TD>
+	<TD><B>INTO=></B>
+	<TD>
+	<TD>
+	<TD>
+<TR>
+	<TD><B>FROM</B>
+	<TD>Sector 1 Agriculture
+	<TD>Sector 2 Manufacture
+	<TD>Final demand Households
+	<TD>Total Output
+<TR>
+	<TD>Sector 1 Agriculture	
+	<TD>25	
+	<TD>20	
+	<TD>55
+	<TD>100 bushels of wheat
+<TR>
+	<TD>Sector 2 Manufacture	
+	<TD>14	
+	<TD>6
+	<TD>30
+	<TD>50 yards of cloth
+</TABLE><P>
+
+Inserting these numbers on the right-hand side of the system of equations, we find that X1= 100 and X2= 50. As should have been expected, they are identical with the corresponding total output figures in the table above. Used the third (pollution) equation we find X3 = 60. This is the total amount of pollution generated by both industries.<P>
+
+	By performing a similar computation for Y1 = 55 and Y2 = 0, and then for Y1 = 0 and Y2 = 30, we could find out that 42.62 of these 60 grams of pollution are associated with agricultural and manufacturing activities contributing directly or indirectly to the delivery of households of 55 bushels of wheat, while the remaining 17.8 grams can be imputed to productive activities contributing directly and indirectly to the final delivery of 30 yards of cloth.<P>
+
+	Had the final demand for cloth fallen from 30 yards to 15, the amount of pollution traceable in it would be reduced from 17.38 to 8.69 grams".<P>
+<FONT  SIZE=+1 COLOR=#800000><CENTER>  Conclusion</CENTER></FONT><P>
+
+	The aim of this paper was to give an introduction to the input-output analysis approach to the broader field of trade theory. To fulfill this aim entirely, would entail a much more exhaustive work. However, it is hoped that the overall importance of Leontief's findings has been adequately conveyed and the overall significance of the field in the workings of today's national as well as regional economies can be appreciated.<P>
+
+There are today several collections of papers on the topic including documents published by the Organisation for Economic Cooperation and Development which can be consulted. The reading of them will continue to build on and round out the very simplified model presented within this paper. It will become apparent that although input-output analysis is best known for measuring region-wide effects, this does not do justice to the extent of its potential uses.<P>
+
+The power of the model is that it can show the distribution of overall impacts. A column of the total requirements table indicates which sectors in the region will be affected and by what magnitude. This can be used to make important policy decisions when translated into income and employment effects. Policy makers can use the information derived from the model to identify an industrial growth target for a region or to target specific unemployment and youth job training programs.<P>
+
+<FONT  SIZE=+1 COLOR=#800000><CENTER><A HREF="../CONFERENCES/appendix.html">Appendix</A></CENTER></FONT><P>
+
+
+<FONT  SIZE=+1 COLOR=#800000><CENTER> Endnotes</CENTER></FONT><P>
+ 1. Södersten, B. and Reed, G. <I>International Economics</I>. p 112. 1994.<P>
+
+ 2.  Leontief, W. <I>Input-Output Economics</I>. p 2. 1986<P>
+3.  Kreinin, M. <I>International Economics-A Policy Approach</I>. p 434. 1991.<P>
+
+ 4. Sodersten, B. and Reed, G. <I>International Economics</I>. pp 104. 1994.<P>
+
+5.  Ibid.p 105. 1994<P>
+6.   Hastings,S. and Brucker,S. <I>An Introduction to Regional Input-Output Analysis</I>. p 1. 1994<P>
+
+7.  Södersten, B. and Reed, G. <I>International Economics</I>. p 1 15. 1994<P>
+8.  Fatemi, A. <I>Input-Output Analysis Notes</I>.<P>
+9.  OECD Documents. <I>Structural Change and Idustrial Performance</I>. p. 1992<P>
+ 10. Table from Hastings,S. and Brucker,S. <I>An Introduction to Regional Input- Output Analysis</I>. p 18. 1994<P>
+
+11.  Fatemi, A. <I>Input-Output Analysis Notes</I>.<P>
+12.  Leontief, W. <I>Input-Output Economics</I>. p 22. 1 986.<P>
+
+
+13.  Table from Hastings,S. and Brucker,S. <I>An Introduction to regional Input-Output Analysis</I>. p18. 1994<P>
+14.  Table from Hastings,S. and Brucker,S. <I>An Introduction to regional Input-Output Analysis</I>. p19. 1994<P>
+15.  Mathematical procedure taken from Barnett, R, and Ziegler, M. <I>College Mathematics</I>. p 262.1990.<P>
+16.   Hastings, S. and Brucker, S. <I>Introduction to Regional Input-Output Analysis</I>. p 54. 1994.<P>
+
+
+
+ 17. Hastings, S. and Brucker, S.<I> Introduction to Regional Input-Output Analysis.</I> p 22. 1994.<P>
+ 18. Hastings, S. and Brucker, S. <I>Introduction to Regional Input-Output Analysis</I>. p 67-69. 1994.<P>
+
+ 19. Leontief, W. <I>Input-Output Economics</I>. p 241 - 250. 1986.<P>
+
+<FONT  SIZE=+1 COLOR=#800000><CENTER> Bibliography</CENTER></FONT><P>
+
+BARNETT, R. and ZIEGLER, M. <I>College Mathematics for Business, Economics, Life Sciences, and Social Sciences</I>. Published by Dellen Publishing c/o MacMillan Publishing Company, New Jersey. 1990.<P>
+
+BENT, R. and SETHARES, G. BASIC- <I>An Introduction to Computer Programming</I>. Published by Brooks Publishing, Monterey. 1982.<P>
+
+HASTINGS, S. and BRUCKER, S. <I>An Introduction to Regional Input-Output Analysis</I>. 1994.
+<P>
+KREININ, M. <I>International Economics - A Policy Approach</I>. Published by Harcourt Brace Jovanovich. 1991.<P>
+
+LEONTIEF, W. <I>Input-Output Economics</I>. Published by Oxford University Press, New York. 1986.
+<P>
+LIEN, D. <I>The BASIC Handbook - Encyclopedia of the BASIC Computer Programming Language</I>. Published by Compusoft Publishing, San Diego. 1981.
+<P>
+MAYNARD, J.<I> Computer Programming Made Simple</I>. Published by W.H. Allen, London. 1980.
+<P>
+ORGANISATION for ECONOMIC COOPERATION and DEVELOPMENT. <I>Structural Change and Industrial Performance</I>. OECD Publishing, Paris. 1992.
+<P>
+SöDERSTEN, B. and REED, G. <I>International Economics</I>. Published by Macmillan Press, London. 1994.
+<P>
+SOHN, I. ed. <I>Readings in Input-Output Analysis - Theory and Applications</I>.
+Published by Oxford University Press, New York. 1986.
+
+
+
+
+
+
+<P>
+
+<hr size="3">
+
+<p align="center"><font size="2">Page created by </font><a
+
+href="mailto:misho@fatemi.com"><font size="2">Michail Sougarev</font></a> </p>
+
+</BODY>
+
+</HTML>
